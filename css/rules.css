@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    /* align-items: center; */
+    /* align-content: center; */
+    background-color: #eeeeee;
+    overflow-y: hidden;
+    
+}
+
+.popup{
+    width: 400px;
+    background-color: #FFF;
+    border-radius: 25px;
+    justify-content: center;
+    display: block;
+    height: 430px;
+    margin: 50px 500px;
+    box-shadow: 4px 4px 70px 10px rgb(0 0 0/11%);
+    margin-top: 30px;
+    position: fixed;
+
+}
+
+.popup .popup-header{
+    background-color: #BECDF5;
+    height: 150px;
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+    text-align: center;
+}
+.popup-title{
+    background-color: #BECDF5;
+    height: 150px;
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+
+}
+.popup-title img{
+    height: 150px;
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+}
+.heading{
+    font-size: 60px;
+    padding: 40px;
+    letter-spacing: 0.1px;
+    font-weight: 500;
+    color: #FFF;
+    text-align: center;
+}
+.rules-section{
+    justify-content: center;
+    align-items: center;
+    margin: 30px 15px;
+    height: 150px;
+}
+
+.rule-details{
+    /* background-color: green; */
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    /* height: 50px */
+}
+
+.actual-rule{
+    height: auto;
+    padding: 5px;
+    color: #888888;
+    font-size: 14px;
+
+
+}
+
+.button{
+    text-decoration: none;
+    color: #FFF;
+    display: block;
+    padding: 10px;
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    border-radius: 35px;
+    font-size: 14px;
+}
+
+#s_button{
+    background: #BECDF5;
+}

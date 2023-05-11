@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    overflow-y: hidden;
+    
+}
+
+.popup-content{
+    width: 400px;
+    height: 430px;
+    background: white;
+    box-shadow: 4px 4px 70px 10px rgb(0 0 0/11%);
+    border-radius: 25px;
+    margin: 30px 500px;
+    /* display: none; */
+}
+.imgbox{
+    text-align: center;
+}
+.img{
+    width: 200px;
+    margin-top: 40px;
+}
+.title{
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin: 20px auto;
+    /* margin-top: 20px; */
+
+}
+#success .title{
+   color: #9EB4EF;
+}
+
+#failed .title{
+    color: #FB1B30;
+ }
+
+
+.para{
+   width: 80%;
+   font-size: 14px;
+   line-height: 30px;
+   letter-spacing: 0.05em;
+   text-align: center;
+   margin: auto;
+   color: #888888;
+}
+.reco-visit{
+   width: 50%;
+   display: block;
+   margin: 20px auto;
+   border-radius: 25px;
+   padding: 10px;
+   text-decoration: none;
+   color: white;
+   text-align: center;
+   letter-spacing: 0.05em;
+   font-size: 14px;
+}
+#reco{
+   background:#9EB4EF;
+}
+
+#try-again{
+    background:#FB1B30;
+ }

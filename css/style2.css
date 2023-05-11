@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    /* position: relative; */
+    min-height: 100vh;
+    /* width: 100%; */
+    /* overflow: scroll; */
+    background-color: #9EB4EF;
+    align-items: center;
+    align-content: center;
+    /* display: inline; */
+}
+
+.content_wrapper{
+    display: flex;
+    width: 910px;
+    height: 500px;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    background-color: #EEEEEE;
+    margin-left: 200px;
+    top: 50px;
+    /* margin: 70px; */
+    border-radius: 35px;
+    /* bottom: 10px; */
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.3), 0 6px 6px 0 rgba(0,0,0,0.3);
+    
+}
+
+.content_wrapper .page_img{
+    width: 500px;
+    height: 100%;
+    /* background-color: aqua; */
+    border-radius: 35px 0px 0px 35px;
+}
+
+.content_wrapper .page_img img{
+    border-radius: 35px 0px 0px 35px;
+    height: 100%;
+    width: 500px;
+}
+
+.content_wrapper .form_content{
+    /* background-color: aqua; */
+    width: calc(910px - 500px);
+    height: 100%;
+    border-radius: 0px 35px 35px 0px;
+}
+.content_wrapper .form_content form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    /* padding: 20px; */
+}
+
+.title{
+    color: #040101;
+    /* background-color: #934F; */
+    font-size: 48px;
+    font-weight: 700;
+    padding: 20px;
+    margin: 10px 0;
+}
+.input-group{
+    width: 80%;
+    height: 40px;
+    /* background-color: aliceblue; */
+    margin: 5px 0;
+    border-radius: 35px;
+    display:flex;
+    align-items: center;
+    border: 1px solid #C7C7C7;
+}
+
+.input-group i{
+    flex: 1;
+    text-align: center;
+    color: #C7C7C7;
+    
+}
+
+.input-group input{
+    flex: 5;
+    border: none;
+    outline: none;
+    /* width: 200px; */
+    color: #040101;
+    height: 90%;
+    background: none;
+    font-family: 'DM Sans', sans-serif;
+    
+}
+
+input::placeholder{
+    color: #C7C7C7;
+    opacity: 5;
+}
+
+.input-group button{
+    background-color: #9EB4EF;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid #C7C7C7;
+    border-radius: 35px;
+    font-family: 'DM Sans', sans-serif;
+    
+}
+
+#submit_btn{
+    margin: 30px 0;
+}
+
+
+.errors{
+    align-items: center;
+    justify-content: center;
+    color: red;
+    /* background-color: #040101; */
+    /* margin-top: 0px; */
+    margin-top: -55px;
+    margin-left: 100px;
+    position: absolute;
+    height: 30px;
+    padding: 10px;
+    font-weight: 700;
+    /* text-transform: uppercase; */
+   
+}

@@ -1,0 +1,145 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    /* align-items: center; */
+    /* align-content: center; */
+    
+}
+
+.page_details{
+    margin-top: 30px;
+    margin-left: 200px;
+    /* align-items: flex-end; */
+    /* align-content: flex-end; */
+    /* background-color: #9EB4EF; */
+    width: 1000px;
+    height: 100px;
+    text-align:end;
+    padding: 10px;
+
+}
+
+.page_details h1{
+    font-size: 48px;
+    font-weight: 700;
+    /* text-align:end; */
+    width: 100%;
+    height: auto;
+    /* background-color: aqua; */
+    /* align-content: left; */
+}
+
+.page_details hr{
+    width: 300px;
+    margin-left:680px;
+    border: 0.1px solid black;
+    align-items: flex-end;
+}
+.page_details p{
+    padding: 10px;
+    font-weight: 700;
+}
+.container{
+    /* background-color: pink; */
+    width: 900px;
+    height: 700px;
+    /* display: flex; */
+    margin-top: 30px;
+    margin-left: 300px;
+    
+}
+
+.container .letters{
+    float: left;
+    width: 660px;
+    height: auto;
+    /* border: 2px solid #9EB4EF; */
+}
+
+.individual{
+    width: 40px;
+    height: 40px;
+    float: left;
+    /* display: inline; */
+    /* border: 0.5px solid black; */
+    box-shadow: 1px 1px 1px 1px #888888;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: 5px;
+    /* background-color: aqua; */
+    padding: 10px;
+}
+.container #districts_section{
+    float: right;
+    width: 200px;
+    height: auto;
+    border: 2px solid #9EB4EF;
+    border-radius: 35px;
+    font-size: 16px;
+    align-items: center;
+    
+    /* padding: 50px; */
+
+}
+
+#districts_section #districts p{
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    /* text-decoration: line-through; */
+}
+
+.timing{
+    background-color: #9EB4EF;
+    width: 120px;
+    height: 40px;
+    border-radius: 35px;
+    align-items: center;
+    text-align: center;
+    margin: 10px 40px;
+}
+
+.timing h1{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+
+.done{
+    text-decoration: line-through;
+    /* background-color: #9EB4EF; */
+}
+
+.clear{
+    background-color: #9EB4EF;
+    width: 120px;
+    height: 40px;
+    border-radius: 35px;
+    align-items: center;
+    text-align: center;
+    margin: 5px 40px;
+    color: #FFF;
+    /* padding: 5px; */
+    border: none;
+    /* font-size: 20px; */
+    font-weight: 700;
+}
+
+.clicked{
+background-color: #BECDF5;
+}
+
+.correct{
+    background-color: #D5D5D5;
+}

@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    /* align-items: center; */
+    /* align-content: center; */
+    
+}
+
+.footer_content{
+    /* display: flex; */
+    align-content: center;
+    width: 100%;
+    height: 150px;
+    background-color:#9EB4EF;
+    top: 0;
+
+}
+
+.web_logo{
+    display: flex;
+    /* background-color: #381a1a; */
+    height: 10px;
+    align-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 35px;
+    text-align: center;
+    /* border: 2px solid #fff; */
+    /* width: 180px; */
+    
+}
+
+#footer{
+    margin-left: 500px;
+}
+.web_logo .menya p{
+    color: #9EB4EF;
+    /* background-color: #040101; */
+    width: 60px;
+    height: 30px;
+    margin-left: 500px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.web_logo .Rwanda p{
+    width: 40px;
+    height: 30px;
+    background-color:#EEEEEE;
+    padding: 5px;
+    color: #9EB4EF;
+    margin: 10px;
+}
+
+.contact_information{
+    /* background-color: aqua; */
+    width: 100%;
+    /* display: flex; */
+    align-content: center;
+    align-items: center;
+    color: #fff;
+
+}
+.contact_information .direct_contact{
+    display: flex;
+    width: auto;
+    /* background-color: #040101; */
+    padding: 2px;
+    margin-left: 400px;
+    align-items: center;
+    color: #fff;
+}
+
+.phn_number, .e_mail{
+    align-items: center;
+    margin: 5px;
+}
+
+.direct_contact span{
+    margin: 10px;
+}
+
+.contact_information .copyrights{
+    margin-left: 500px;
+    /* background-color: #888888; */
+}

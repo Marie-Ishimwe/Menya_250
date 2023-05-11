@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    background-color: rgb(246, 242, 242);
+    
+}
+
+/* .aboutusContainer{
+    background-color: aqua;
+} */
+
+.our-mission{
+    /* background-color: blue; */
+    display: flex;
+    padding: 40px;
+}
+
+.our-mission h5{
+    /* background: oldlace; */
+    display: inline;
+    font-size: 25px;
+    padding: 20px;
+    margin: 20px 40px;
+    font-weight: bold;
+    /* font-size: ; */
+}
+.info{
+/* background-color: olive; */
+line-height: 30px;
+padding: 20px;
+}
+
+.info p{
+    /* background-color: yellowgreen; */
+    margin: 30px 60px;
+}
+
+.info button{
+    align-content: center;
+    margin-left: 80px;
+    width: 50%;
+}
+
+.background img{
+    margin-left: 100px;
+    width: 250px;
+    height: 250px;
+    /* background-color: black; */
+}
+.story{
+    /* background-color: yellow; */
+    display: flex;
+    padding: 40px;
+    /* margin-left: 70px; */
+}
+
+.story img
+{
+    width: 250px;
+    height: 250px;
+    margin-left: 90px;
+}
+
+.story .info{
+    margin-left: 150px;
+}
+
+.info h5{
+    /* background: oldlace; */
+    display: inline;
+    font-size: 25px;
+    padding: 20px;
+    margin: 20px 40px;
+    font-weight: bold;
+    /* font-size: ; */
+}
